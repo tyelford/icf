@@ -1,0 +1,76 @@
+html, body{
+	font-size: 1.1em;
+	background-color: rgb(212, 215, 215);
+}
+
+/*HEADER*/
+#headerContainer{
+  padding: 10px 0 10px 0;
+}
+
+#logo-img{
+  background: url('/images/logoHouse.png') no-repeat;
+  width: 123px;
+  height: 117px;
+}
+
+.navbar-brand h1{
+  margin-left: 10px;
+}
+
+.navbar-brand a:hover{
+  text-decoration:none;
+}
+
+.navbar-header span#subBrand{
+  position: relative;
+  margin-left: 10px;
+  top: -10px;
+}
+
+ nav#header-nav a {
+    text-align: center;
+  }
+
+
+/*FOOTER*/
+footer{
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color:white;
+}
+
+#footer-stats-wrapper{
+  width: 455px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.footer-stats{
+  float:left;
+  margin-left: 30px;
+}
+.footer-stats:nth-child(1){
+  margin-left: 0;
+}
+
+.footer-stats div:nth-child(1){
+  text-align:center;
+  font-size: 210%;
+}
+
+#footer-links-wrapper{
+  width:525px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#footer-links{
+  text-align: center;
+}
+
+.footer-copyright {
+    clear: both;
+    text-align: center;
+}
