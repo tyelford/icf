@@ -5,6 +5,8 @@
 
 <link rel='stylesheet' href='styles/bootstrap.min.css'>
 <link rel='stylesheet' href='styles/boiler.css'>
+<link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+<?php echo $customStylesheet; ?>
 
 <script src='scripts/jquery-2.2.5.js'></script>
 <script src='scripts/bootstrap.min.js'></script>
@@ -13,7 +15,7 @@
 
 
 <body>
-	<div id='wrapper'></div>
+	
 	
 	<header>
 	  <nav id='header-nav' class='navbar navbar-default'>
@@ -78,3 +80,5 @@
 	    </div>
 	  </nav>
 	</header>
+    <div id='wrapper'>
+    

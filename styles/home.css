@@ -1,0 +1,33 @@
+﻿#front-img img{
+  width: 100%;
+  height: auto;
+}
+
+.featuredCard{
+  /*position: relative;
+  top: -390px;*/
+  height: 600px;
+  width: 340px;
+  margin-left: 20px;
+  background-color: white;
+  margin-bottom: -370px;
+}
+.featuredCard:nth-child(1){
+  margin-left: 0;
+}
+
+.featuredCardWrapper{
+  position:relative;
+  top: -390px;
+  margin-bottom: -370px;
+}
+
+.quote-request-button{
+  text-align:center;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+.quote-request-button>a{
+    font-size: 1.3em;
+}
