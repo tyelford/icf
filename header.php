@@ -3,6 +3,8 @@
 <head>
 <title><?php echo $title; ?></title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel='stylesheet' href='styles/bootstrap.min.css'>
 <link rel='stylesheet' href='styles/boiler.css'>
 <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
@@ -10,7 +12,6 @@
 
 <script src='scripts/jquery-2.2.5.js'></script>
 <script src='scripts/bootstrap.min.js'></script>
-
 </head>
 
 
@@ -22,7 +23,7 @@
 	    <div class='container' id='headerContainer'>
 	      
 	      <div class='navbar-header' id='navbarheader'>
-  	        <a href='/' class='pull-left visible-md visible-lg'>
+  	        <a href='/' class='pull-left visible-xs visible-sm visible-md visible-lg'>
   	          <div id='logo-img' alt='ICF Builders Logo'></div>
   	        </a>
 	        <div class='pull-left navbar-brand'>
@@ -49,28 +50,28 @@
                 <li>
                     <a href="/what-is-icf.php">
                         <span class="glyphicon glyphicon-question-sign"></span>
-                        <br class="hidden-xs" />
+                        <br class="hidden-xs hidden-sm" />
                         What is ICF
                     </a>
                 </li>
                 <li>
                     <a href="/benefits-of-icf.php">
                         <span class="glyphicon glyphicon-cog"></span>
-                        <br class="hidden-xs" />
+                        <br class="hidden-xs hidden-sm" />
                         Benefits of ICF
                     </a>
                 </li>
                 <li>
                     <a href="/about.php">
                         <span class="glyphicon glyphicon-info-sign"></span>
-                        <br class="hidden-xs" />
+                        <br class="hidden-xs hidden-sm" />
                         About Us
                     </a>
                 </li>
                 <li>
                     <a href="/contact.php">
                         <span class="glyphicon glyphicon-inbox"></span>
-                        <br class="hidden-xs" />
+                        <br class="hidden-xs hidden-sm" />
                         Contact Us
                     </a>
                 </li>
