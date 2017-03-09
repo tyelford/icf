@@ -167,4 +167,12 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+   #footer-stats-wrapper {
+    width: 286px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-stats{
+    text-align:center;
+  }
 }

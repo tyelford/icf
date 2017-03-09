@@ -39,7 +39,7 @@ include 'header.php';
 
             <div class="col-sm-4 card featuredCard">
                 <img src="images/fortruss_logo.png" alt="Canam Logo" />
-                <h2>Fortruss</h2>
+                <h2>Fortruss<br />&nbsp;</h2>
                 <img src="images/fortruss_product.png" alt="Logix Product" />
                 <p>Here is a bunch of more info on what this product does and how we are awesome at using it!</p>
             </div>

@@ -8,17 +8,17 @@
         <div id='footer-stats-wrapper'>
           <div class='footer-stats'>
             <div>329</div>
-            <div>Houses Built</div>
+            <div>Houses<br class="visible-xs" /> Built</div>
           </div>
           
           <div class='footer-stats'>
             <div>12</div>
-            <div>Houses Building</div>
+            <div>Houses<br class="visible-xs" /> Building</div>
           </div>
           
           <div class='footer-stats'>
             <div>489</div>
-            <div>Satisfied Owners</div>
+            <div>Satisfied<br class="visible-xs" /> Owners</div>
           </div>
         </div>
       </div>
